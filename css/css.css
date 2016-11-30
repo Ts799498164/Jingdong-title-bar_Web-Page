@@ -1,0 +1,122 @@
+*{padding:0;
+  margin:0;
+}
+a{font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+	font-weight: bold;
+	color: #E4393c;
+	text-decoration: underline;
+}
+.nav{width: 223px;
+	border:2px solid #E4393c;
+    margin: 10px;
+    position: relative;
+}
+.nav .navbig{ height: 42px;
+              line-height:42px;
+              background:#E4393c; 
+              color:#FFF; 
+              font-size: 15px; 
+              font-weight:bold; 
+              padding-left: 23px;
+} 
+.nav .navsma dl {height: 30px;
+                display: block;
+                width: 213px;
+                padding-left: 10px;
+                overflow: hidden;
+}
+.nav .navsma dl a{line-height: 30px;
+                  font-size: 15px;
+}
+.nav .navsma  dd{
+	display: inline-block;
+}
+
+.nav .navsma  dd a{
+    font-size: 14px;
+}
+
+.blocks{
+	width: 25px;
+	height: 60px;
+	background:#FFF;
+    z-index: 100;
+    float: right;
+    position: relative;
+    display: none;
+}
+/*大标题结束*/
+
+
+.hide{ 
+    width: 717px;
+    box-shadow:0 0 5px #d3d3d3;
+    border: 1px solid #CCC;
+    position: absolute;
+    top:40px;
+    left: 215px;
+    z-index: 2;
+    background: #FFF;
+    display: none;
+ }
+ .hide .leftdiv{
+ 	width: 464px;
+ 	padding: 20px;
+ 	float: left;
+ }
+ .hide .leftdiv dl{
+ 	display: block;
+ 	border-bottom: 1px solid #ccc; 
+ }
+ .hide .leftdiv dt a {
+ 	clear: both;
+ 	display:block;
+ 	font-size: 14px;
+ 	color: #E4393c;
+ 	text-decoration: underline;
+ 	font-weight: bold;
+ 	float: left;
+ 	line-height: 30px;
+ 	margin-right:10px;
+ }
+
+.hide .leftdiv dd a {
+	display: inline-block;
+	font-size: 13px;
+	margin-top:8px;
+	margin-bottom:8px;
+	padding: 2px 6px 2px 6px;
+	border-left:1px solid #ccc;
+	line-height: 14px;
+}
+
+
+.hide .rightdiv{
+	width: 205px;
+	float: left;
+	margin-left: 8px;
+	position: relative;
+}
+.hide li{
+	list-style: none;
+
+}
+.hide img{
+	display: block;
+	border:none;
+}
+.hide .pri{
+	position: absolute;
+	right: -20px;
+}
+.hide ul a{
+	font-size: 13px;
+	line-height: 30px;
+	color: #000;
+}
+
+
