@@ -1,8 +1,13 @@
-# Jingdong-title-bar_Web-Page
-Jingdong-title-bar roughly as follows:
-![Image text](https://github.com/Ts799498164/image-folder/blob/master/bar1.png)
-<p> When the mouse to move to the various large tags will pop up in response to the small title bar:</p>
+# Jingdong-title-bar_Web-Page  
+## 京东标题栏   
+### 由于这是我之前做成的，所以代码很多部分在我看来不是很规范，直接上最终效果图，并陈述一下当时遇到得一个小问题，最终的实现效果如下图所示：
+![Image text](https://github.com/Ts799498164/image-folder/blob/master/bar1.png)    
+### 当鼠标移动时发生简单交互，显示对应的隐藏小标题栏，如下如所示：
 ![Image text](https://github.com/Ts799498164/image-folder/blob/master/bar2.png)
-![Image text](https://github.com/Ts799498164/image-folder/blob/master/bar3.png)
-<p> If the small Title LAN is too small, it will automatically move to the place with the big title echoes appear:</p>
+![Image text](https://github.com/Ts799498164/image-folder/blob/master/bar3.png)   
+### 在制作过程中，我直接使用了position属性定义了隐藏标题栏每次出现的地方，所以导致了一个问题，那就是有的标题栏附带的小标题过小，它没办法悬浮到父标题上，鼠标也就没有办法移动到小标题，如下图所示：
+![Image text](https://github.com/Ts799498164/image-folder/blob/master/bar5.png)    
+### 尝试了累加方式解决，发现还是有瑕疵，如下图所示：
+![Image text](https://github.com/Ts799498164/image-folder/blob/master/bar6.png)    
+### 通过使用动态获取父标题的位置，然后将position属性动态改变。通过调试很好的解决了问题，最终效果图如下：
 ![Image text](https://github.com/Ts799498164/image-folder/blob/master/bar4.png)
